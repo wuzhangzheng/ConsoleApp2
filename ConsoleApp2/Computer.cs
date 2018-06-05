@@ -6,7 +6,7 @@ namespace ConsoleApp2
 {
     public class Computer
     {
-        public string Name { get; set; }
+        public string FirstName { get; set; }
         public int Play()
         {
             Random r = new Random();
@@ -16,6 +16,7 @@ namespace ConsoleApp2
                 case 1:Name = "石头";break;
                 case 2:Name = "剪刀";break;
                 case 3: Name = "布";break;
+                
             }
             return num;
         }
