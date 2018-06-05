@@ -13,9 +13,9 @@ namespace ConsoleApp2
             var num = r.Next(1, 4);
             switch (num)
             {
-                case 1:Name = "石头";break;
-                case 2:Name = "剪刀";break;
-                case 3: Name = "布";break;
+                case 1:FirstName = "石头";break;
+                case 2:FirstName = "剪刀";break;
+                case 3: FirstName = "布";break;
                 
             }
             return num;
