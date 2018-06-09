@@ -14,6 +14,7 @@ namespace ConsoleApp2
     }
     class Person
     {
+        //姓名
         public string Name { get; set; }
         public int Age { get; set; }
         public char Sex { get; set; }
