@@ -16,6 +16,6 @@ namespace ConsoleApp2
     {
         public string Name { get; set; }
         public int Age { get; set; }
-        public string Sex { get; set; }
+        public char Sex { get; set; }
     }
 }
